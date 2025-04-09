@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Association Sportive</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --ubs-blue-dark: #003A70;
+      --ubs-blue-light: #009FE3;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-[var(--ubs-blue-dark)] text-white p-6 text-center">
+    <h1 class="text-3xl font-bold mb-2">Nom de l'Association</h1>
+    <p class="text-lg">Sport, engagement et convivialité à l'image de l'UBS</p>
+  </header>
+
+  <!-- Menu -->
+  <nav class="bg-[var(--ubs-blue-light)] text-white flex justify-center space-x-6 py-4 font-medium">
+    <a href="#presentation" class="hover:underline">Présentation</a>
+    <a href="#infos" class="hover:underline">Infos pratiques</a>
+    <a href="#contact" class="hover:underline">Contact</a>
+  </nav>
+
+  <!-- Présentation -->
+  <section id="presentation" class="max-w-4xl mx-auto py-10 px-4">
+    <h2 class="text-2xl font-semibold text-[var(--ubs-blue-dark)] mb-4">Présentation de l'association</h2>
+    <p class="text-lg leading-relaxed">
+      Notre association sportive, affiliée à l’Université Bretagne Sud, propose des activités sportives pour tous les niveaux :
+      entraînements hebdomadaires, compétitions universitaires, événements internes... Le tout dans une ambiance conviviale et dynamique.
+    </p>
+  </section>
+
+  <!-- Infos pratiques -->
+  <section id="infos" class="bg-gray-100 py-10 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl font-semibold text-[var(--ubs-blue-dark)] mb-4">Infos pratiques</h2>
+      <ul class="list-disc ml-6 text-lg leading-relaxed">
+        <li>📍 Lieux : Stade de Kercado, Gymnase de Lorient, etc.</li>
+        <li>📅 Horaires : entraînements les mardis et jeudis à 18h</li>
+        <li>🎽 Activités : running, multisports, préparation physique</li>
+        <li>💶 Cotisation annuelle : 25€</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto py-10 px-4">
+    <h2 class="text-2xl font-semibold text-[var(--ubs-blue-dark)] mb-4">Nous contacter</h2>
+    <p class="text-lg">📧 Email : contact@monasso-ubs.fr</p>
+    <p class="text-lg">📱 Insta : <a href="#" class="text-[var(--ubs-blue-light)] hover:underline">@monasso_ubs</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[var(--ubs-blue-dark)] text-white text-center py-4 mt-10">
+    &copy; 2025 Mon Association Sportive - Université Bretagne Sud
+  </footer>
+
+</body>
+</html>
