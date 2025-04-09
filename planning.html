@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planning – Association Sportive UBS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --ubs-blue-dark: #003A70;
+      --ubs-blue-light: #009FE3;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <header class="bg-[var(--ubs-blue-dark)] text-white p-6 text-center">
+    <h1 class="text-3xl font-bold mb-2">Association Sportive Bretagne Sud</h1>
+    <p class="text-lg">Planning des activités</p>
+  </header>
+
+  <!-- Menu -->
+  <nav class="bg-[var(--ubs-blue-light)] text-white flex justify-center space-x-6 py-4 font-medium">
+    <a href="index.html" class="hover:underline">Accueil</a>
+    <a href="presentation.html" class="hover:underline">Présentation</a>
+    <a href="planning.html" class="hover:underline">Planning</a>
+    <a href="contact.html" class="hover:underline">Contact</a>
+  </nav>
+
+  <!-- Planning -->
+  <section class="max-w-5xl mx-auto py-10 px-4">
+    <h2 class="text-2xl font-semibold text-[var(--ubs-blue-dark)] mb-6">Planning hebdomadaire</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full table-auto border-collapse border border-gray-300 text-center">
+        <thead class="bg-[var(--ubs-blue-light)] text-white">
+          <tr>
+            <th class="border border-gray-300 px-4 py-2">Jour</th>
+            <th class="border border-gray-300 px-4 py-2">Heure</th>
+            <th class="border border-gray-300 px-4 py-2">Activité</th>
+            <th class="border border-gray-300 px-4 py-2">Lieu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-gray-50">
+            <td class="border px-4 py-2">Lundi</td>
+            <td class="border px-4 py-2">18h – 19h30</td>
+            <td class="border px-4 py-2">Préparation physique</td>
+            <td class="border px-4 py-2">Gymnase Lorient</td>
+          </tr>
+          <tr>
+            <td class="border px-4 py-2">Mercredi</td>
+            <td class="border px-4 py-2">17h – 18h30</td>
+            <td class="border px-4 py-2">Multisports</td>
+            <td class="border px-4 py-2">Stade Kercado</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="border px-4 py-2">Vendredi</td>
+            <td class="border px-4 py-2">12h – 13h30</td>
+            <td class="border px-4 py-2">Running</td>
+            <td class="border px-4 py-2">Parc du Bois du Château</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="bg-[var(--ubs-blue-dark)] text-white text-center py-4 mt-10">
+    &copy; 2025 Association Sportive UBS
+  </footer>
+
+</body>
+</html>
